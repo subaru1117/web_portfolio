@@ -1,0 +1,30 @@
+/* body {
+  font-family:"hiragino kaku gothic pron","メイリオ", sans-serif;
+} */
+
+.mein {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: normal;
+  font-size: xx-large;
+  background-color:rgba(128,128, 128, 0.7);
+  margin-top: 30px;
+}
+
+.header {
+  height: 100px;
+  width: auto;
+}
+
+.header-title {
+  float: left;
+  margin: 35px 10px 10px 50px;
+}
+
+.header ul li {
+  margin: 40px 10px;
+  float: left;
+}
+
+.content li {
+  float: left;
+}

@@ -199,6 +199,20 @@ ul {
   letter-spacing: 8px;
   font-weight: 100;
   padding:150px 0 60px 0;
+    
+  animation: Fade2 3s ease ;
+    animation-fill-mode: forwards;
+}
+
+@keyframes Fade2 {
+    0% {
+        transform: translateY(-60px);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
 }
 
 .myphoto img {
@@ -225,8 +239,9 @@ ul {
 
 .about-text a:hover {
   opacity: 1;
-  color: blue;
-  text-decoration:underline;
+  color: #000000;
+/*   text-decoration:underline; */
+  list-style: none;
 }
 
 .main-text {

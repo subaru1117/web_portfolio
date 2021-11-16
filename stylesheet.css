@@ -255,7 +255,14 @@ ul {
 .main-text {
   font-size: 16px;
   padding-top: 40px;
+  padding-bottom:10px;
 }
+
+.main-text2 {
+  font-size: 16px;
+  padding-bottom:10px;
+}
+
 
 .skill-contents {
   /* width: 50%; */

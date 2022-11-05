@@ -9,6 +9,7 @@
     letter-spacing: 2px;
     padding-top: 10px;
     padding-left: 10px;
+    width:50%;
   }
 
   .header {
@@ -17,6 +18,16 @@
 
   .header-right {
     padding: 18px 10px 0 0;
+
+
+  }
+
+  .header-right .fas{
+    padding:0 5px;
+  }
+
+  .header-right .fab{
+    padding:0 5px;
   }
 
   .table {
@@ -96,14 +107,22 @@
   .contact-wrapper p{
     font-size: 16px;
   }
-  
+
+  .table2 {
+    padding-bottom:50px;
+    text-align: center;
+  }
+
   .main-text {
     font-size: 13px;
+    /* text-indent: 0.5em; */
   }
-  
+
   .main-text2 {
     font-size: 13px;
+    /* text-indent: 0.5em; */
   }
+
 
 }
 
@@ -116,9 +135,10 @@
   .mainimg2 {
     display: none;
   }
-  
+
   .table2 {
     display: none;
   }
-  
+
+
 }

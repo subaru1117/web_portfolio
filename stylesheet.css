@@ -157,6 +157,7 @@ ul {
 }
 
 .header-right .fas {
+  padding:0 15px;
   opacity: 0.7;
 }
 
@@ -255,14 +256,14 @@ ul {
 .main-text {
   font-size: 16px;
   padding-top: 40px;
-  padding-bottom:10px;
+  padding-bottom: 10px;
 }
 
 .main-text2 {
   font-size: 16px;
-  padding-bottom:10px;
-}
+  padding-bottom: 10px;
 
+}
 
 .skill-contents {
   /* width: 50%; */
@@ -343,6 +344,10 @@ ul {
 
 .contact-menu .fab:hover {
   opacity: 1;
+}
+
+#space {
+  opacity: 0;
 }
 
 footer .nav-list {
